@@ -1,0 +1,84 @@
+You are a full-stack developer + UI/UX designer. I need you to help me transform a basic leaderboard dashboard into a stunning, modern, interactive experience.
+
+Tech stack: TailwindCSS, React (or Next.js), Framer Motion for animations, optional: shadcn/ui or Headless UI for components.
+
+🎯 Goals:
+
+Visually impressive but minimalistic (think Apple + futuristic SaaS dashboard vibes)
+
+Mobile responsive
+
+Fast to load (no unnecessary bloat)
+
+Built to keep users engaged with gamified elements
+
+🔧 Key Requirements:
+
+Leaderboard Cards
+
+Clean card layout
+
+Hover effect (slight glow or scale)
+
+Show: rank, name, score, university, optional profile pic
+
+Add badges/icons for milestones (e.g. Top 3, Consistency, Fast Climber)
+
+Clicking a user opens a modal/sidebar with more info: progress graph, recent score activity
+
+Top 3 Users Highlighted
+
+Larger cards with gold/silver/bronze themes
+
+Optional confetti or animated crown icon
+
+Include rank-based animation when they change positions (use Framer Motion)
+
+Navigation / Layout
+
+Sticky tab bar or side nav
+
+Use icons alongside text
+
+Sections: Leaderboard, Perks, History, Top Climbers
+
+Fonts + Spacing
+
+Use inter or poppins font
+
+Large heading font (1.8–2.2rem), 1.5rem subtext
+
+Cards should have generous padding & spacing
+
+Gamified Enhancements
+
+Weekly reset indicator + bonus points banner
+
+Progress bar to next milestone (ex: 200 pts to Top 10!)
+
+“🔥 Fast Climbers” section for those gaining rank quickly
+
+Optional sound effect or animation when user crosses milestone (subtle)
+
+✨ Style Recommendations:
+
+Use glassmorphism on containers (backdrop-blur-md, bg-opacity-30)
+
+Gradient accents (purple-pink, electric blue)
+
+Soft drop shadows and rounded-2xl corners
+
+Use motion.div for fade-in sections, slide-in cards
+
+Animate leaderboard changes with Framer Motion layout animation
+
+🧠 Optional Extras:
+
+Dark mode toggle
+
+Add user search + filter (by name, school, category)
+
+Export button for top scores (CSV)
+
+Give me the full React component structure with Tailwind and smooth Framer animations. Use clean, modular code and explain which parts I can easily tweak (color scheme, animations, etc.).
+
